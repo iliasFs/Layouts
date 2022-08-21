@@ -10,33 +10,37 @@
 .container {
   border: 4px solid red;
   padding: 24px 24px 0px 24px;
-  display:flex;
+}
+
+.row {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
   justify-content: space-between;
-
-
+  margin: 0 auto;
 }
 
 .box {
   border: 3px solid darkgray;
-    margin-bottom: 24px;
-
+  margin-bottom: 24px;
 }
-.box-small{
-
-    height: 50px;
+.box-small {
+  height: 50px;
 }
 
-.box-wrapper{
-
-    width:45%;
-
+.box-wrapper {
+  width: 45%;
 }
 
-.right-box{
-    
-    width:45%;
+.right-box {
+  width: 45%;
 }
 
-
-
-
+.box-tiny {
+  width: 30%;
+  height: 50px;
+}
+.tiny-wrap {
+  display: flex;
+  justify-content: space-between;
+}
